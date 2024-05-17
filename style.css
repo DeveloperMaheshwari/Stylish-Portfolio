@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#hero{
+    height: 100vh;
+}
+
+.title{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.info{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn{
+    color: white;
+}
+
+#about{
+    height: 50vh;
+}
+
+#service{
+    background-image: url('https://images.pexels.com/photos/5987178/pexels-photo-5987178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: white;
+}
+
+.fa{
+    background-color: white;
+    color: blue;
+    font-size: 2rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+#portfolio{
+    height: 100%;
+}
+
+.img{
+    height: 22rem;
+    width: 42rem;
+    transition: 2s ease-in;
+}
+
+.inner{
+    background-image: url('https://images.pexels.com/photos/1007025/pexels-photo-1007025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.outer{
+    transition: 3s ease;
+}
+
+.outer:hover{
+    padding: 2rem;
+}
+
+img:hover{
+box-shadow: 0.8rem 0.8rem 0.8rem black;
+}
+
+.images1{
+    position: relative;
+}
+
+.images1 h6{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+}
+
+.images1 p{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+}
+
+.images2{
+    position: relative;
+}
+
+.images2 h6{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+}
+
+.images2 p{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+}
+
+.fa-brands{
+    background-color: cadetblue;
+    color: white;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
